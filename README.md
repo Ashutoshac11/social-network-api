@@ -81,16 +81,16 @@ This is a RESTful API for a social networking application built with Django and 
 
 ## API Endpoints
 ### Authentication
-- Signup: POST `/api/signup/`
-- Login: POST `/api/login/`
+- Signup: POST `/api/auth/signup/`
+- Login: POST `/api/auth/login/`
 
 ### User Search
 - Search Users: GET `/api/users/search/?q=keyword`
 
 ### Friend Requests
 - Send Friend Request: POST `/api/request/`
-- Accept Friend Request: POST `/api/friend-request/<id>/accept/`
-- Reject Friend Request: POST `/api/friend-request/<id>/reject/`
+- Accept Friend Request: POST `/api/friend-requests/<id>/accept/`
+- Reject Friend Request: POST `/api/friend-requests/<id>/reject/`
 - List Pending Friend Requests: GET `/api/friend-requests/`
 
 ### Friends
