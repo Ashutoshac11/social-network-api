@@ -75,8 +75,7 @@ This is a RESTful API for a social networking application built with Django and 
 - Make sure Docker is installed and running. Then, run the following command:
 
     ```bash
-    Copy code
-    docker-compose up --build
+        docker-compose up --build
     
 - The API will be available at `http://127.0.0.1:8000/`.
 
